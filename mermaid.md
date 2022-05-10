@@ -1,8 +1,12 @@
 # Mermaid test
 
 ```mermaid
-gitGraph
+ gitGraph
        commit
+       commit id: "Normal" tag: "v1.0.0"
        commit
+       commit id: "Reverse" type: REVERSE tag: "RC_1"
+       commit
+       commit id: "Highlight" type: HIGHLIGHT tag: "8.8.4"
        commit
 ```
